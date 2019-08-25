@@ -129,6 +129,9 @@ html {
 
 #navBarFace .btn-light img {
   border-radius: 50%;
+  width: 25px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #navBarFace .btn-light span {
@@ -259,6 +262,8 @@ html {
 #todo .labels .perfil img {
   width: 160px;
   height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #todo .labels .perfil .alterar-perfil {
