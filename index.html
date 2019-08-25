@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome.css">
+    <title>Facebook</title>
+</head>
+
+<body>
+    <!-- <navegação inicial -->
+    <nav class="navbar navbar-dark bg-primary container-fluid" id="navBarFace">
+        <div class="left pull-left d-flex">
+            <a class="navbar-brand" href="#">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-default my-2 my-sm-0" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+        <div class="right">
+            <button class="media btn btn-light">
+                <img class="media-left" src="./assets/img/user.jpg" height="25">
+                <span class="media-body">Allison</span>
+            </button>
+            <button class="media btn btn-light">
+                <span class="media-body">Página inicial</span>
+            </button>
+            <button class="media btn btn-light">
+                <span class="media-body">Criar</span>
+            </button>
+            <section class="media btn btn-light icon-group">
+                <button class="btn btn-icon">
+                    <div class="fa fa-user"></div>
+                </button>
+                <button class="btn btn-icon">
+                    <div class="fa fa-commenting"></div>
+                </button>
+                <button class="btn btn-icon">
+                    <div class="fa fa-bell"></div>
+                </button>
+            </section>
+            <section class="media btn btn-light icon-group">
+                <button class="btn btn-icon">
+                    <div class="fa fa-question-circle"></div>
+                </button>
+                <button class="btn btn-icon">
+                    <div class="fa fa-caret-down"></div>
+                </button>
+            </section>
+        </div>
+    </nav>
+    <!-- <<< Navegação inicial -->
+    <div id="todo">
+        <section id="infos">
+            <figure class="cover">
+                <div class="alterar-bg">
+                    <i class="fa fa-camera"></i>
+                    <span>Alterar foto da capa</span>
+                </div>
+                <img src="./assets/img/bg.png" alt="" height="315">
+            </figure>
+            <div class="labels">
+                <figure class="perfil">
+                    <img src="./assets/img/user.jpg" alt="">
+                    <div class="alterar-perfil">
+                        <i class="fa fa-camera"></i> <br>
+                        <b>Atualizar</b>
+                    </div>
+                </figure>
+                <h2>Allison Julio</h2>
+                <div class="control-buttons">
+                    <button class="btn btn-default">Atualizar Informações <span class="badge">1</span></button>
+                    <button class="btn btn-default"><i class="fa fa-list"></i> Registro de atividades</button><button class="btn btn-default"><i class="fa fa-ellipsis-h"></i></button>
+                </div>
+            </div>
+        </section>
+               
+        <div class="footer-infos">
+            <ul>
+                <li>Linha do tempo <i class="fa fa-caret-down"></i></li>
+                <li>Sobre</li>
+                <li>Amigos</li>
+                <li>Fotos</li>
+                <li><i class="fa fa-lock"></i> Intens arquivados</i></li>
+            </ul>
+        </div>
+    </div>
+    
+ 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

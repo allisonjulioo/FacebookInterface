@@ -1,0 +1,368 @@
+body,
+html {
+  background-color: #e9ebee !important;
+}
+
+* {
+  outline: none;
+}
+
+.btn:focus, .btn:active {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn:active {
+  background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.btn:active span {
+  color: #fff;
+}
+
+#navBarFace {
+  padding: 0 34px 6px !important;
+  height: 42px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+#navBarFace.bg-primary {
+  background-color: #4267b2 !important;
+}
+
+#navBarFace .left {
+  margin-top: 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 473px;
+}
+
+#navBarFace .left .navbar-brand {
+  margin-right: 7px;
+  background: #fff;
+  height: 23px;
+  width: 23px;
+  border-radius: 1px;
+}
+
+#navBarFace .left .navbar-brand .fa {
+  color: #4267b2;
+  padding: 0px 5px 0px 8px;
+  font-size: 22px;
+  margin-top: -2px;
+  display: block;
+}
+
+#navBarFace input,
+#navBarFace .btn {
+  border-radius: 2px !important;
+  height: 23px;
+}
+
+#navBarFace .btn {
+  border: none;
+}
+
+#navBarFace form {
+  position: relative;
+  height: 42px;
+  width: 100%;
+}
+
+#navBarFace form input {
+  width: 100% !important;
+  padding: 0 5px;
+  letter-spacing: -1px;
+}
+
+#navBarFace form button {
+  position: absolute;
+  right: 0;
+  height: 42px;
+  padding: 5px;
+  color: #807878;
+  background: #f5f6f7;
+  padding: 0 15px;
+  border: none;
+}
+
+#navBarFace form button .fa {
+  margin-top: -1px;
+  display: block;
+}
+
+#navBarFace .right {
+  margin-top: 3px;
+  margin-left: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#navBarFace .btn-light {
+  position: relative;
+  background: transparent;
+  border: none;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2px 10px;
+  height: 30px;
+  margin-top: 0px;
+}
+
+#navBarFace .btn-light img {
+  border-radius: 50%;
+}
+
+#navBarFace .btn-light span {
+  font-size: 12px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+#navBarFace .btn-light:hover {
+  background: rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+#navBarFace .btn-light:before {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0px;
+  height: 17px;
+  top: 8px;
+  width: 1px;
+  background: #3b5c9f;
+}
+
+#navBarFace .btn-light:last-child:before {
+  display: none;
+}
+
+#navBarFace .btn-light.icon-group:hover, #navBarFace .btn-light.icon-group:active, #navBarFace .btn-light.icon-group:focus {
+  background: transparent !important;
+}
+
+#navBarFace .btn-light.icon-group .btn-icon {
+  background: transparent;
+  padding: 0;
+  border: none;
+  width: 23px;
+  height: 23px;
+  margin: 0 5px;
+  opacity: .6;
+  font-size: 19px;
+  margin-top: -6px;
+}
+
+#navBarFace .btn-light.icon-group .btn-icon:hover {
+  opacity: 1;
+}
+
+#todo {
+  width: 100%;
+  max-width: 851px;
+  margin: 0 auto;
+  position: relative;
+  left: -5%;
+}
+
+#todo #infos .cover {
+  position: relative;
+  cursor: pointer;
+}
+
+#todo #infos .cover img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#todo #infos .cover .alterar-bg {
+  opacity: .8;
+  position: absolute;
+  left: 30px;
+  top: 21px;
+  font-size: 13px;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 2px;
+}
+
+#todo #infos .cover .alterar-bg .fa {
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  margin-right: 4px;
+}
+
+#todo #infos .cover .alterar-bg span {
+  opacity: 0;
+}
+
+#todo #infos .cover:hover {
+  -webkit-transition: -webkit-transform .3s ease;
+  transition: -webkit-transform .3s ease;
+  transition: transform .3s ease;
+  transition: transform .3s ease, -webkit-transform .3s ease;
+}
+
+#todo #infos .cover:hover .alterar-bg {
+  background: #000;
+  border: 1px solid #fff;
+}
+
+#todo #infos .cover:hover .alterar-bg .fa {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#todo #infos .cover:hover .alterar-bg span {
+  opacity: 1;
+}
+
+#todo #infos {
+  position: relative;
+}
+
+#todo .labels .perfil {
+  cursor: pointer;
+  position: absolute;
+  bottom: -42px;
+  left: 17px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+#todo .labels .perfil img {
+  width: 160px;
+  height: 160px;
+}
+
+#todo .labels .perfil .alterar-perfil {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  padding: 17px 0;
+  color: #fff;
+  font-size: 12px;
+}
+
+#todo .labels .perfil:hover .alterar-perfil {
+  -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  -webkit-transform: translateY(10%);
+          transform: translateY(10%);
+}
+
+#todo .labels h2 {
+  float: left;
+  position: relative;
+  top: -59px;
+  left: 205px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#todo .labels .control-buttons {
+  position: absolute;
+  right: 0;
+  bottom: 14px;
+}
+
+#todo .labels .control-buttons .btn {
+  height: 26px;
+  border-radius: 1px;
+  line-height: 26px;
+  padding: 0 10px;
+  font-size: 12px;
+  color: #4b4f56;
+  background-color: #f5f6f7;
+  border-color: #ccd0d5;
+  margin-right: 15px;
+}
+
+#todo .labels .control-buttons .btn .badge {
+  background: #fa3e3e;
+  color: #fff;
+  border-radius: 0;
+}
+
+#todo .labels .control-buttons .btn:last-child {
+  margin-left: -15px;
+}
+
+#todo .labels .control-buttons .btn:hover {
+  background: #f2f2f2;
+}
+
+#todo .labels .control-buttons .btn:active, #todo .labels .control-buttons .btnfocus {
+  background: #e7e7e7 !important;
+}
+
+.footer-infos {
+  height: 43px;
+  background: #fff;
+  margin-top: -15px;
+}
+
+.footer-infos ul {
+  padding-left: 75px;
+  margin-left: 40px;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  height: 100%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-infos ul li {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 0 14px;
+  color: #34518d;
+  line-height: 2.6;
+  border: .7px solid;
+  border-color: transparent #eee  transparent #eee;
+}
+
+.footer-infos ul li:hover {
+  background: rgba(66, 103, 178, 0.06);
+}
+/*# sourceMappingURL=style.css.map */
